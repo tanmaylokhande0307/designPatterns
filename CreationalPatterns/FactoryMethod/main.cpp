@@ -1,8 +1,8 @@
 #include <iostream>
 
-#include "BombedMazeGame.h"
-#include "Maze.h"
-#include "MazeGame.h"
+#include "../../BombedMazeGame.h"
+#include "../../Maze.h"
+#include "../../MazeGame.h"
 
 int main()
 {
