@@ -15,3 +15,8 @@ pattern to avoid exposing complex, algorithm-specific data structures.
 • a class defines many behaviors, and these appear as multiple conditional
 statements in its operations. Instead of many conditionals, move related
 conditional branches into their own Strategy class.
+
+### When to use
+many related classes differ only in their behavior
+you need different variants of an algorithm
+an algorithm uses data that clients shouldn't know about
