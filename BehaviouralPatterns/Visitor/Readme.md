@@ -13,3 +13,8 @@ and you want to perform operations on these objects that depend on their concret
 and you want to avoid "polluting" their classes with these operations
 * the classes defining the object structure rarely change, but you often want
 to define new operations over the structure
+
+###
+ Uses double dispatch technique 
+
+ The operation that gets executed depends on the request types of two receivers: the visitor and the element
