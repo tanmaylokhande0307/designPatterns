@@ -7,3 +7,19 @@ The behavioural class patterns use inheritence to describe algorithms and flow o
 ### Principles of Object Oriented Design
 Program to an interface not to an implementation
 Favour object composition over inheritance
+
+
+### composition
+strong has-a relationship
+the part cannot exist without the whole
+Represented by filled diamond on the association line
+
+
+### Aggregation
+weak has-a relationship
+the part can exist on its own
+Represented by empty diamond on the assiciation line
+
+### Inheritance 
+is-a relationship
+solid line with a hollow triangle on the association line
